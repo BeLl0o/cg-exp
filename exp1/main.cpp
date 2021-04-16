@@ -74,7 +74,6 @@ void TimeFunction(int value){
     glutPostRedisplay();
     glutTimerFunc(23, TimeFunction, 1);
 */
-    // Something not useful...
     if(x > windowWidth - rsize || x < -windowWidth)   
         xstep = -xstep;
 
